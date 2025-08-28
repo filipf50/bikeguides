@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Coastal Adventure",
+    "description": "Beautiful route along the Mediterranean coast.",
+    "distance": "46 km",
+    "speed": "46 km/hour",
+    "city": "Barcelona",
+    "price": 45,
+    "image": "/img/coastal.jpg"
+  },
+  {
+    "id": 2,
+    "name": "Mountain Challenge",
+    "description": "Challenging climb with panoramic views.",
+    "distance": "60 km",
+    "speed": "60 km/hour",
+    "city": "Granada",
+    "price": 60,
+    "image": "/img/mountain.jpg"
+  }
+]

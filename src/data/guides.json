@@ -1,0 +1,24 @@
+[
+  {
+    "id": 1,
+    "name": "Marta S.",
+    "specialty": "Mountain Biking",
+    "city": "Barcelona",
+    "rating": 4.98,
+    "reviews": 7,
+    "routes": [
+      { "id": 1, "name": "Coastal Adventure", "price": 45, "duration": "4h" }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "David L.",
+    "specialty": "Road Cycling",
+    "city": "Granada",
+    "rating": 4.7,
+    "reviews": 12,
+    "routes": [
+      { "id": 2, "name": "Mountain Challenge", "price": 60, "duration": "6h" }
+    ]
+  }
+]
