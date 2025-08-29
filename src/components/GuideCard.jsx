@@ -19,3 +19,4 @@ function GuideCard({ guide }) {
     </div>
   );
 }
+export default GuideCard;
