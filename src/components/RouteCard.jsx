@@ -13,3 +13,4 @@ function RouteCard({ route }) {
     </div>
   );
 }
+export default RouteCard;
