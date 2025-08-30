@@ -1,7 +1,9 @@
+import { Link } from 'react-router-dom';
+
 function GuideCard({ guide }) {
   return (
-    <div className="bg-white rounded-lg shadow-md overflow-hidden flex flex-col items-center p-4 hover:scale-105">
-      <img src={guide.image} alt={guide.name} className="w-24 h-24 rounded-full object-cover mb-3" />
+    <div className="bg-white rounded-lg shadow-md overflow-hidden transition-transform hover:scale-105">
+      <img src={guide.image} alt={guide.name} className="w-full h-40 object-cover" />
       <div className="p-4">
         <h3 className="font-bold">{guide.name}</h3>
         <p className="text-sm text-gray-600">{guide.specialty}</p>
@@ -10,9 +12,12 @@ function GuideCard({ guide }) {
           <span className="text-yellow-400">★★★★★</span>
           <span className="ml-1 text-sm">{guide.rating}</span>
         </div>
-        <button className="mt-3 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition w-full">
-          Ver Perfil
-        </button>
+        <Link 
+          to={`/guide/${guide.id}`}
+          className="mt-3 bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition block text-center"
+        >
+          View Profile
+        </Link>
       </div>
     </div>
   );

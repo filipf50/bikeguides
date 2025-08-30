@@ -4,6 +4,7 @@ import RouteCard from '../components/RouteCard';
 import GuideCard from '../components/GuideCard';
 import Footer from '../components/Footer';
 import { routesData, guidesData } from '../data/index';
+import { Link } from 'react-router-dom';
 
 function Home() {
   const [searchTerm, setSearchTerm] = useState('');
@@ -57,9 +58,15 @@ function Home() {
               around the world.
             </p>
           </div>
-          <button className="px-6 py-3 bg-blue-600 text-white rounded-md text-lg hover:bg-blue-700 transition-colors">
+          <Link 
+            to="/register" 
+            className="bg-blue-600 text-white px-4 py-2 rounded-lg hover:bg-blue-700 transition"
+          >
+            Become a guide
+          </Link>
+          {/*<button className="px-6 py-3 bg-blue-600 text-white rounded-md text-lg hover:bg-blue-700 transition-colors">
             Sign Up
-          </button>
+          </button>*/}
         </section>
 
       {/* Local Guides */}
