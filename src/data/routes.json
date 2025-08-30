@@ -7,16 +7,37 @@
     "speed": "46 km/hour",
     "city": "Barcelona",
     "price": 45,
-    "image": "/img/coastal.jpg"
+    "image": "/img/routes/coastal.avif"
   },
   {
     "id": 2,
     "name": "Mountain Challenge",
     "description": "Challenging climb with panoramic views.",
     "distance": "60 km",
-    "speed": "60 km/hour",
+    "speed": "15 km/hour",
     "city": "Granada",
     "price": 60,
-    "image": "/img/mountain.jpg"
+    "image": "/img/routes/mountain.avif"
+  },
+  {
+    "id": 3,
+    "name": "Riverside Ride",
+    "description": "Beautiful route side by side to a very bueatiful river",
+    "distance": "60 km",
+    "speed": "35 km/hour",
+    "city": "Bilbao",
+    "price": 60,
+    "image": "/img/routes/riverside.avif"
+  }
+  ,
+  {
+    "id": 4,
+    "name": "City Exploration",
+    "description": "Discover beatiful places in Valencia city.",
+    "distance": "60 km",
+    "speed": "15 km/h",
+    "city": "Valencia",
+    "price": 60,
+    "image": "/img/routes/cityexplorer.avif"
   }
 ]

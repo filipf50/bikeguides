@@ -6,6 +6,7 @@
     "city": "Barcelona",
     "rating": 4.98,
     "reviews": 7,
+    "image": "/img/guides/Marta.webp",
     "routes": [
       { "id": 1, "name": "Coastal Adventure", "price": 45, "duration": "4h" }
     ]
@@ -17,6 +18,31 @@
     "city": "Granada",
     "rating": 4.7,
     "reviews": 12,
+    "image": "/img/guides/David.avif",
+    "routes": [
+      { "id": 2, "name": "Mountain Challenge", "price": 60, "duration": "6h" }
+    ]
+  },
+  {
+    "id": 3,
+    "name": "Laura G",
+    "specialty": "Touring",
+    "city": "Bilbao",
+    "rating": 4.7,
+    "reviews": 12,
+    "image": "/img/guides/Laura.avif",
+    "routes": [
+      { "id": 3, "name": "Riverside Ride", "price": 60, "duration": "6h" }
+    ]
+  },
+  {
+    "id": 4,
+    "name": "Carlos M.",
+    "specialty": "Urban Cycling",
+    "city": "Valencia",
+    "rating": 4.7,
+    "reviews": 12,
+    "image": "/img/guides/Carlos.webp",
     "routes": [
       { "id": 2, "name": "Mountain Challenge", "price": 60, "duration": "6h" }
     ]
